@@ -8,6 +8,7 @@ header {
     align-items: center;
     padding: 30px 100px;
     transform: 0.5s;
+    background: rgba(0, 0, 0, 0.6);
     z-index: 10000;
 }
 header.scrolled {
@@ -15,7 +16,6 @@ header.scrolled {
     border-bottom: 2px solid var(--main-second);
     border-image: linear-gradient(90deg, transparent, var(--main-second), transparent) 30;
     backdrop-filter: blur(20px);
-    padding: 10px 100px;
 }
 .logo {
     font-style: italic;
@@ -28,4 +28,80 @@ header.scrolled {
 }
 .nav {
     display: flex;
+    align-items: center;
+    transition: clip-path 0.3s ease;
+}
+.open-list {
+    display: none;
+    cursor: pointer;
+}
+.open-list ion-icon {
+    font-size: 50px;
+    color: var(--main-second);
+}
+.in-sml,
+.in-sm {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+/*screen*/
+@media (max-width: 1165px) {
+    header {
+        padding: 30px;
+    }
+}
+@media (max-width: 1025px) {
+    .open-list {
+        display: block;
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+        backdrop-filter: contrast(0.5);
+        border-radius: 10px;
+    }
+    .nav {
+        position: absolute;
+        bottom: -140px;
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+        padding: 10px;
+        width: 100%;
+        z-index: 25000;
+        background: rgba(0, 0, 0, 0.6);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+}
+@media (max-width: 990px) {
+    
+}
+@media (max-width: 768px) {
+    header {
+    flex-direction: column;
+    gap: 20px;
+    }
+    .open-list {
+        margin-right: 15px;
+    }
+    .in-sml,
+    .in-sm {
+    justify-content: space-between;
+    width: 100%;
+    }
+}
+@media (max-width: 505px) {
+    header {
+    flex-direction: column;
+    gap: 20px;
+    }
+    .open-list {
+        margin-right: 15px;
+    }
+    .in-sm {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    width: 100%;
+    }
 }

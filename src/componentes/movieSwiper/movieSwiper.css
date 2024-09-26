@@ -1,0 +1,25 @@
+.swiper {
+    padding: 10px 0 !important;
+}
+.movieSwiper {
+    position: absolute !important;
+    bottom: 20px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: 60vw !important;
+    background: rgba(0, 0, 0, 0.3) !important;
+    backdrop-filter: blur(20px) !important;
+    box-shadow: 0 0 140px rgba(255, 255, 255, 0.6) !important;
+    border-radius: 12px;
+}
+.swiper-slide {
+    background-position: center !important;
+    background-size: cover !important;
+    width: 150px !important;
+    height: 200px !important;
+}
+.swiper-slide img {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+}

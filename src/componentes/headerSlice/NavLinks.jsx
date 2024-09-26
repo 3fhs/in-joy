@@ -1,12 +1,15 @@
 import React from 'react';
 import "./navLinks.css";
 
-function NavLinks({nav}) {
+function NavLinks({nav, navOnClick}) {
   return (
-    <li key={nav._id}>
-        <a href={nav.link}>{nav.name}</a>
+    <li>
+        <a key={nav._id} href={nav.link} onClick={() => {navOnClick(nav._id)}}
+          className={`${nav.active ? 'active' : ''}`} >
+            {nav.name}
+        </a>
     </li>
   )
 }
 
-export default NavLinks
+export default NavLinks;

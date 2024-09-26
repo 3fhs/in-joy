@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 :root {
-    --main-second: darkred;
+    --main-second: red;
 }
 body {
     font-family: "PT Serif", serif;

@@ -9,6 +9,7 @@
     letter-spacing: 1px;
     cursor: pointer;
     transition: 0.3s;
+    text-decoration: none;
 }
 .nav li a:hover,
 .nav li a.active {

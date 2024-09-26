@@ -1,0 +1,563 @@
+{ 
+  "films": [
+  {
+    "id": 1,
+    "title": "Action Hero",
+    "rating": 8.2,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMDJiOTdmMGItMmM5MC00ZTRiLWIzNjctNDE4ZTZkMWMzZTg0XkEyXkFqcGdeQXVyOTI3MzI4MzA@._V1_.jpg",
+    "trailer": "https://www.youtube.com/watch?v=vCTt_PnWHPg",
+    "genre": "Action",
+    "year": 2021,
+    "active": true,
+    "duration": "120 min",
+    "releaseDate": "2021-06-15",
+    "description": "An action-packed thriller about a hero who battles against overwhelming odds.",
+    "ageRating": "PG-13",
+    "author": {
+        "name": "John Doe",
+        "photo": "https://fatpossum.com/cdn/shop/collections/John_Doe_1200x1200.jpg?v=1648673542"
+      },
+      "comments": [
+        {
+          "user": "Alice",
+          "text": "An exciting film with great action sequences!",
+          "date": "2023-09-01"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Hero Actor",
+          "photo": "https://example.com/hero_actor.jpg"
+        },
+        {
+          "name": "Villain Actor",
+          "photo": "https://example.com/villain_actor.jpg"
+        }
+      ]
+  },
+  {
+    "id": 2,
+    "title": "A MAN CALLED OTTO ",
+    "rating": 7.5,
+    "poster": "https://www.sitnas.id/uploads/large/e1b581aea90ab4982ca97f8e7824e0dd.jpeg",
+    "trailer": "https://www.youtube.com/watch?v=eFYUX9l-m5I",
+    "genre": "Comedy",
+    "year": 2020,
+    "active": false,
+    "duration": "95 min",
+    "releaseDate": "2020-05-20",
+    "description": "A hilarious story of a man who unexpectedly becomes a comedy superstar.",
+    "ageRating": "PG",
+    "author": {
+        "name": "John Doe",
+        "photo": "https://fatpossum.com/cdn/shop/collections/John_Doe_1200x1200.jpg?v=1648673542"
+      },
+      "comments": [
+        {
+          "user": "Alice",
+          "text": "An exciting film with great action sequences!",
+          "date": "2023-09-01"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Hero Actor",
+          "photo": "https://example.com/hero_actor.jpg"
+        },
+        {
+          "name": "Villain Actor",
+          "photo": "https://example.com/villain_actor.jpg"
+        }
+      ]
+  },
+  {
+    "id": 3,
+    "title": "Mystery Night",
+    "rating": 9.1,
+    "poster": "https://i.ytimg.com/vi/PI8nuDNMB3o/maxresdefault.jpg",
+    "trailer": "https://www.youtube.com/watch?v=GBYKY7NwB5Y",
+    "genre": "Thriller",
+    "year": 2022,
+    "active": false,
+    "duration": "130 min",
+    "releaseDate": "2022-09-10",
+    "description": "A gripping thriller where secrets unravel during a mysterious night.",
+    "ageRating": "R",
+    "author": {
+        "name": "John Doe",
+        "photo": "https://fatpossum.com/cdn/shop/collections/John_Doe_1200x1200.jpg?v=1648673542"
+      },
+      "comments": [
+        {
+          "user": "Alice",
+          "text": "An exciting film with great action sequences!",
+          "date": "2023-09-01"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Hero Actor",
+          "photo": "https://example.com/hero_actor.jpg"
+        },
+        {
+          "name": "Villain Actor",
+          "photo": "https://example.com/villain_actor.jpg"
+        }
+      ]
+  },
+  {
+    "id": 4,
+    "title": "Romantic Getaway",
+    "rating": 8.7,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMDRhOTA2ODQtMjkxOC00NDM3LWI2YWUtMDk3MWMzZTM4NjNlXkEyXkFqcGc@._V1_.jpg",
+    "trailer": "https://www.youtube.com/watch?v=Huigqp1Numg",
+    "genre": "Romance",
+    "year": 2019,
+    "active": false,
+    "duration": "110 min",
+    "releaseDate": "2019-12-01",
+    "description": "A romantic tale of two souls who find love during a vacation.",
+    "ageRating": "PG-13",
+    "author": {
+        "name": "John Doe",
+        "photo": "https://fatpossum.com/cdn/shop/collections/John_Doe_1200x1200.jpg?v=1648673542"
+      },
+      "comments": [
+        {
+          "user": "Alice",
+          "text": "An exciting film with great action sequences!",
+          "date": "2023-09-01"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Hero Actor",
+          "photo": "https://example.com/hero_actor.jpg"
+        },
+        {
+          "name": "Villain Actor",
+          "photo": "https://example.com/villain_actor.jpg"
+        }
+      ]
+  },
+  {
+    "id": 5,
+    "title": "A SPACE ODYSSEY",
+    "rating": 8.9,
+    "poster": "https://prdaficalmjediwestussa.blob.core.windows.net/images/2022/06/AFIMC_2001ASPACEODYSSEY4.jpg",
+    "trailer": "https://www.youtube.com/watch?v=oR_e9y-bka0",
+    "genre": "Science Fiction",
+    "year": 1968,
+    "active": false,
+    "duration": "139 min",
+    "releaseDate": "1968-04-02",
+    "description": "A sci-fi epic exploring humanity's journey through space.",
+    "ageRating": "G",
+    "author": {
+        "name": "John Doe",
+        "photo": "https://fatpossum.com/cdn/shop/collections/John_Doe_1200x1200.jpg?v=1648673542"
+      },
+      "comments": [
+        {
+          "user": "Alice",
+          "text": "An exciting film with great action sequences!",
+          "date": "2023-09-01"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Hero Actor",
+          "photo": "https://example.com/hero_actor.jpg"
+        },
+        {
+          "name": "Villain Actor",
+          "photo": "https://example.com/villain_actor.jpg"
+        }
+      ]
+  },
+  {
+    "id": 6,
+    "title": "THE HOUSE NEXT DOOR",
+    "rating": 7.8,
+    "poster": "https://images.squarespace-cdn.com/content/v1/5efce5920d28887981c5bd9b/1622213121328-C3D06A9YNVVWRRWRWI3Z/The+House+Next+Door+Meet+the+Blacks+2+poster+Rick+Ross.jpg",
+    "trailer": "https://www.youtube.com/watch?v=WmYLXe0wk_c",
+    "genre": "Comedy",
+    "year": 2021,
+    "active": false,
+    "duration": "100 min",
+    "releaseDate": "2021-07-10",
+    "description": "A comedy about a family that moves into a haunted house next door.",
+    "ageRating": "PG-13",
+    "author": {
+        "name": "John Doe",
+        "photo": "https://fatpossum.com/cdn/shop/collections/John_Doe_1200x1200.jpg?v=1648673542"
+      },
+      "comments": [
+        {
+          "user": "Alice",
+          "text": "An exciting film with great action sequences!",
+          "date": "2023-09-01"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Hero Actor",
+          "photo": "https://example.com/hero_actor.jpg"
+        },
+        {
+          "name": "Villain Actor",
+          "photo": "https://example.com/villain_actor.jpg"
+        }
+      ]
+  },
+  {
+    "id": 7,
+    "title": "Warriors of Justice",
+    "rating": 9.0,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTcxNDk1ODIwNV5BMl5BanBnXkFtZTcwMDY2MDEzMQ@@._V1_FMjpg_UX1000_.jpg",
+    "trailer": "https://www.youtube.com/watch?v=wwhpVDo_qPo",
+    "genre": "Action",
+    "year": 2023,
+    "active": false,
+    "duration": "125 min",
+    "releaseDate": "2023-03-15",
+    "description": "An epic battle between good and evil, featuring heroic warriors.",
+    "ageRating": "PG-13",
+    "author": {
+        "name": "John Doe",
+        "photo": "https://fatpossum.com/cdn/shop/collections/John_Doe_1200x1200.jpg?v=1648673542"
+      },
+      "comments": [
+        {
+          "user": "Alice",
+          "text": "An exciting film with great action sequences!",
+          "date": "2023-09-01"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Hero Actor",
+          "photo": "https://example.com/hero_actor.jpg"
+        },
+        {
+          "name": "Villain Actor",
+          "photo": "https://example.com/villain_actor.jpg"
+        }
+      ]
+  },
+  {
+    "id": 8,
+    "title": "Daddy Day Camp",
+    "rating": 7.3,
+    "poster": "https://hips.hearstapps.com/hmg-prod/images/best-movie-posters-daddy-day-camp-640265a61c093.jpeg",
+    "trailer": "https://www.youtube.com/watch?v=8jYlLRZvTmc",
+    "genre": "Family",
+    "year": 2007,
+    "active": false,
+    "duration": "90 min",
+    "releaseDate": "2007-08-15",
+    "description": "A family comedy about a father's misadventures while running a day camp.",
+    "ageRating":"PG",
+    "author": {
+        "name": "John Doe",
+        "photo": "https://fatpossum.com/cdn/shop/collections/John_Doe_1200x1200.jpg?v=1648673542"
+      },
+      "comments": [
+        {
+          "user": "Alice",
+          "text": "An exciting film with great action sequences!",
+          "date": "2023-09-01"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Hero Actor",
+          "photo": "https://example.com/hero_actor.jpg"
+        },
+        {
+          "name": "Villain Actor",
+          "photo": "https://example.com/villain_actor.jpg"
+        }
+      ]
+  },
+  {
+    "id": 9,
+    "title": "Thrill Seeker",
+    "rating": 8.6,
+    "poster": "https://m.media-amazon.com/images/I/81Ug5gT6zOL._AC_UF894,1000_QL80_.jpg",
+    "trailer": "https://www.youtube.com/watch?v=lTvk15hyI-Q",
+    "genre": "Thriller",
+    "year": 2022,
+    "active": false,
+    "duration": "115 min",
+    "releaseDate": "2022-05-05",
+    "description": "A heart-pounding thriller following a group of thrill-seekers.",
+    "ageRating":"R",
+    "author": {
+        "name": "John Doe",
+        "photo": "https://fatpossum.com/cdn/shop/collections/John_Doe_1200x1200.jpg?v=1648673542"
+      },
+      "comments": [
+        {
+          "user": "Alice",
+          "text": "An exciting film with great action sequences!",
+          "date": "2023-09-01"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Hero Actor",
+          "photo": "https://example.com/hero_actor.jpg"
+        },
+        {
+          "name": "Villain Actor",
+          "photo": "https://example.com/villain_actor.jpg"
+        }
+      ]
+  },
+  {
+    "id": 10,
+    "title": "A Space Adventure",
+    "rating": 8.4,
+    "poster": "https://a.shabakaty.vip/uploads/thumbs/1529b57be-1.jpg",
+    "trailer": "https://www.youtube.com/watch?v=zNxm_obDpNU",
+    "genre": "Science Fiction",
+    "year": 2021,
+    "active": false,
+    "duration": "130 min",
+    "releaseDate": "2021-11-20",
+    "description": "An intergalactic adventure that takes viewers across the universe.",
+    "ageRating":"PG-13",
+    "author": {
+        "name": "John Doe",
+        "photo": "https://fatpossum.com/cdn/shop/collections/John_Doe_1200x1200.jpg?v=1648673542"
+      },
+      "comments": [
+        {
+          "user": "Alice",
+          "text": "An exciting film with great action sequences!",
+          "date": "2023-09-01"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Hero Actor",
+          "photo": "https://example.com/hero_actor.jpg"
+        },
+        {
+          "name": "Villain Actor",
+          "photo": "https://example.com/villain_actor.jpg"
+        }
+      ]
+  },
+  {
+    "id": 11,
+    "title": "Guardians of the Galaxy Vol. 3",
+    "rating": 8.0,
+    "poster": "https://sm.ign.com/ign_mear/cover/g/guardians-/guardians-of-the-galaxy-vol-3_kdnz.jpg",
+    "trailer": "https://www.youtube.com/watch?v=br4PTHmKr8U",
+    "genre": "Action",
+    "year": 2023,
+    "active": false,
+    "duration": "150 min",
+    "releaseDate": "2023-05-05",
+    "description": "The Guardians embark on a mission to protect one of their own.",
+    "ageRating":"PG-13",
+    "author": {
+        "name": "John Doe",
+        "photo": "https://fatpossum.com/cdn/shop/collections/John_Doe_1200x1200.jpg?v=1648673542"
+      },
+      "comments": [
+        {
+          "user": "Alice",
+          "text": "An exciting film with great action sequences!",
+          "date": "2023-09-01"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Hero Actor",
+          "photo": "https://example.com/hero_actor.jpg"
+        },
+        {
+          "name": "Villain Actor",
+          "photo": "https://example.com/villain_actor.jpg"
+        }
+      ]
+  },
+  {
+    "id": 12,
+    "title": "Oppenheimer",
+    "rating": 8.8,
+    "poster": "https://cairogossip.com/app/uploads/2022/08/oppenheimer.jpeg",
+    "trailer": "https://www.youtube.com/watch?v=bK6ldnjE3Y0",
+    "genre": "Drama",
+    "year": 2023,
+    "active": false,
+    "duration": "180 min",
+    "releaseDate": "2023-07-21",
+    "description": "A look at the life of the man who developed the atomic bomb.",
+    "ageRating":"R",
+    "author": {
+        "name": "John Doe",
+        "photo": "https://fatpossum.com/cdn/shop/collections/John_Doe_1200x1200.jpg?v=1648673542"
+      },
+      "comments": [
+        {
+          "user": "Alice",
+          "text": "An exciting film with great action sequences!",
+          "date": "2023-09-01"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Hero Actor",
+          "photo": "https://example.com/hero_actor.jpg"
+        },
+        {
+          "name": "Villain Actor",
+          "photo": "https://example.com/villain_actor.jpg"
+        }
+      ]
+  },
+  {
+    "id": 13,
+    "title": "Barbie",
+    "rating": 7.3,
+    "poster": "https://warrenpl.org/wp-content/uploads/2024/02/s-l1600.jpg",
+    "trailer": "https://www.youtube.com/watch?v=pBk4NYhWNMM",
+    "genre": "Comedy",
+    "year": 2023,
+    "active": false,
+    "duration": "114 min",
+    "releaseDate": "2023-07-21",
+    "description": "Barbie sets off on an adventure to the real world.",
+    "ageRating":"PG-13",
+    "author": {
+        "name": "John Doe",
+        "photo": "https://fatpossum.com/cdn/shop/collections/John_Doe_1200x1200.jpg?v=1648673542"
+      },
+      "comments": [
+        {
+          "user": "Alice",
+          "text": "An exciting film with great action sequences!",
+          "date": "2023-09-01"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Hero Actor",
+          "photo": "https://example.com/hero_actor.jpg"
+        },
+        {
+          "name": "Villain Actor",
+          "photo": "https://example.com/villain_actor.jpg"
+        }
+      ]
+  },
+  {
+    "id": 14,
+    "title": "Mission: Impossible – Dead Reckoning Part One",
+    "rating": 8.1,
+    "poster": "https://thedailyguardian.com/wp-content/uploads/2023/08/2-missionimpossible.jpg",
+    "trailer": "https://www.youtube.com/watch?v=2m1drlOZSDw",
+    "genre": "Action",
+    "year": 2023,
+    "active": false,
+    "duration": "163 min",
+    "releaseDate": "2023-07-14",
+    "description": "Ethan Hunt and his team must track down a terrifying new weapon.",
+    "ageRating":"G",
+    "author": {
+        "name": "John Doe",
+        "photo": "https://fatpossum.com/cdn/shop/collections/John_Doe_1200x1200.jpg?v=1648673542"
+      },
+      "comments": [
+        {
+          "user": "Alice",
+          "text": "An exciting film with great action sequences!",
+          "date": "2023-09-01"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Hero Actor",
+          "photo": "https://example.com/hero_actor.jpg"
+        },
+        {
+          "name": "Villain Actor",
+          "photo": "https://example.com/villain_actor.jpg"
+        }
+      ]
+  },
+  {
+    "id": 15,
+    "title": "Spider-Man: Across the Spider-Verse",
+    "rating": 9.1,
+    "poster": "https://www.awn.com/sites/default/files/styles/original/public/image/attached/1059911-sv2busshltrtsrbenreilly01-1280.jpg?itok=2jLx3DEz",
+    "trailer": "https://www.youtube.com/watch?v=cqGjhVJWtEg",
+    "genre": "Adventure",
+    "year": 2023,
+    "active": false,
+    "duration": "140 min",
+    "releaseDate": "2023-06-02",
+    "description": "Miles Morales embarks on an epic adventure across the Multiverse.",
+    "ageRating":"R",
+    "author": {
+        "name": "John Doe",
+        "photo": "https://fatpossum.com/cdn/shop/collections/John_Doe_1200x1200.jpg?v=1648673542"
+      },
+      "comments": [
+        {
+          "user": "Alice",
+          "text": "An exciting film with great action sequences!",
+          "date": "2023-09-01"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Hero Actor",
+          "photo": "https://example.com/hero_actor.jpg"
+        },
+        {
+          "name": "Villain Actor",
+          "photo": "https://example.com/villain_actor.jpg"
+        }
+      ]
+  }
+  ],
+  "reviews": [
+      {
+        "name": "John Doe",
+        "photo": "https://academy.hsoub.com/uploads/monthly_2015_10/13.jpg.4cbe499c45618f176d5aea2b8d599da2.jpg",
+        "comment": "An exciting film with great action sequences!",
+        "date": "2023-09-01",
+        "location": "Paris",
+        "locationPhoto": "https://png.pngtree.com/background/20230519/original/pngtree-cinema-in-an-empty-theater-picture-image_2661376.jpg"
+      },
+      {
+        "name": "Alice Smith",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwyhoK29O6ftEm3FgW8UuDsMp93Q-kt7g2_A&s",
+        "comment": "Amazing visuals and thrilling story!",
+        "date": "2023-09-05",
+        "location": "London",
+        "locationPhoto": "https://media-cdn.tripadvisor.com/media/photo-s/17/2f/d3/6e/standard-cinema.jpg"
+      },
+      {
+        "name": "Sara Yassin",
+        "photo": "https://photos-images.org/wp-content/uploads/2020/09/12671-10.jpg",
+        "comment": "An exciting film with great action sequences!",
+        "date": "2023-09-01",
+        "location": "America",
+        "locationPhoto": "https://watermark.lovepik.com/photo/20211126/large/lovepik-cinema-picture_501130558.jpg"
+      },
+      {
+        "name": "Zidan Farg",
+        "photo": "https://themes.jozoor.com/invention/ar/photography/wp-content/uploads/2014/06/6472122961_c6477930d1_b-460x460.jpg",
+        "comment": "Amazing visuals and thrilling story!",
+        "date": "2023-09-05",
+        "location": "Cairo",
+        "locationPhoto": "https://media.filfan.com/NewsPics/FilFanNew/Large/285682_0.jpeg"
+      }
+    ]
+}
