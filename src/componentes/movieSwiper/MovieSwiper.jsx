@@ -1,8 +1,5 @@
 import React from 'react';
 import "./movieSwiper.css";
-// core version + navigation, pagination modules:
-import { Navigation, Pagination } from 'swiper/modules';
-// import Swiper and modules styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -35,7 +32,7 @@ function MovieSwiper({slide, changeBack}) {
         
             {slide.map(item => (
                 <SwiperSlide key={item.id}>
-                    <img src={item.poster} alt='preview image' onClick={() => changeBack(item.id)} />
+                    <img src={item.poster} alt='preview' onClick={() => changeBack(item.id)} />
                 </SwiperSlide>
             ))}
             

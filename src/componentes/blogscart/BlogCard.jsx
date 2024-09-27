@@ -14,7 +14,7 @@ function BlogCard({blog}) {
             </p>
 
             <h2 className="title">
-               <a href='#'>{blog.comment}</a> 
+               <button>{blog.comment}</button> 
             </h2>
             <div className="d-flex align-items-center">
                 <img src={blog.photo} alt="thats crazy" className="img-other-thing post-auther-img flex-shrink-" />
@@ -23,7 +23,7 @@ function BlogCard({blog}) {
                         {blog.name}
                     </p>
                     <p className="post-date">
-                        <time datetime="2024-01-01">
+                        <time dateTime="2024-01-01">
                             {blog.date}
                         </time>
                     </p>

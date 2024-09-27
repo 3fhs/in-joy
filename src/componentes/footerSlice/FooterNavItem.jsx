@@ -5,7 +5,7 @@ function FooterNavItem({name}) {
   return (
     <li>
         <ion-icon name="redo"></ion-icon>{''}
-        <a href="#">{name}</a>
+        <button>{name}</button>
     </li>
   )
 }

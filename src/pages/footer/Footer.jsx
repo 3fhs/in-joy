@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './footer.css';
 import FooterNavItem from '../../componentes/footerSlice/FooterNavItem';
 
@@ -30,20 +30,20 @@ function Footer() {
                         <p>
                             تم عمل موقع الافلام هذا و سيتم تحسينه كثيرا , اتمنى دعمكم , اعلم ان الكلام هذا غير مناسب لكنى اردت ان اترك كلمة تذكرنى بكل كود كتبته 
                         </p>
-                        <div className="social-links mt-3">
-                            <a href="#" className="twitter">
+                        <ul className="social-links mt-3">
+                            <li className="twitter">
                             <ion-icon name="logo-twitter"></ion-icon>
-                            </a>
-                            <a href="#" className="facebook">
+                            </li>
+                            <li className="facebook">
                                 <ion-icon name="logo-facebook"></ion-icon>
-                            </a>
-                            <a href="#" className="instagram">
+                            </li>
+                            <li className="instagram">
                             <ion-icon name="logo-instagram"></ion-icon>
-                            </a>
-                            <a href="#" className="youtube">
+                            </li>
+                            <li className="youtube">
                             <ion-icon name="logo-youtube"></ion-icon>                            
-                            </a>
-                        </div>
+                            </li>
+                        </ul>
                     </div>
 
                     <div className="col-lg-2 col-6 footer-links">
@@ -81,7 +81,7 @@ function Footer() {
                         @ CopyRight all rights reserved 2024 {""}
                         <p className="credits">
                             Design By {""}
-                            <a href="#"> {""} Mohamed-Abd-Elghany</a>
+                            <span> {""} Mohamed-Abd-Elghany</span>
                         </p>
                     </div>
                 </div>

@@ -6,9 +6,9 @@ function BtnUp({scroll}) {
         window.scrollTo(0,0);
     }
   return (
-    <a className={`up ${scroll > 100 ? 'active' : undefined}`} onClick={up}>
+    <button className={`up ${scroll > 100 ? 'active' : undefined}`} onClick={up}>
          <h1>UP</h1> 
-    </a>
+    </button>
   )
 }
 

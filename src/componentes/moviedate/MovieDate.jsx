@@ -16,9 +16,9 @@ function MovieDate({film}) {
           <h2> {film.releaseDate} </h2>
         </div>
         <div className={`trailer d-flex align-items-center justify-content-center ${film.active ? 'active' : undefined}`}>
-          <a href='#' className='playBtn' onClick={togglevideo}>
+          <button className='playBtn' onClick={togglevideo}>
             <ion-icon name="play-forward-outline"></ion-icon>
-          </a>
+          </button>
           <p>Watch Trailer</p>
         </div>
         {film.active && <ModalVideo film={film} status={video} togglev={togglevideo}/>}

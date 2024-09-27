@@ -13,9 +13,9 @@ function ModalVideo({film, togglev, status}) {
 
   return (
     <div className={`modal ${status ? "active" : ""}`}>
-        <a href='#' className='closeModal' onClick={togglev}>
+        <button className='closeModal' onClick={togglev}>
             <ion-icon name="close-outline"></ion-icon>
-        </a>
+        </button>
         <iframe
           width="80%"
           height="80%"
